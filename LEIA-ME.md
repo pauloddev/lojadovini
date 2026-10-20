@@ -27,7 +27,6 @@ No deploy da Vercel, `scripts/build.mjs` troca tudo automaticamente pela variáv
 | Item | Arquivo e linha | O que fazer |
 |---|---|---|
 | URL do site | `site.config.mjs`, linha 10 | Opcional na Vercel (automático). Com domínio próprio, troque pelo domínio (sem barra no final). |
-| Imagem de compartilhamento | `index.html`, linhas 20 a 28 | Criar `og-image.jpg` em **1200x630 px** na raiz do projeto. |
 
 ## Resultado do checklist
 
@@ -50,7 +49,7 @@ No deploy da Vercel, `scripts/build.mjs` troca tudo automaticamente pela variáv
 2. Canonical absoluta, vinda de SITE_URL.
 3. robots.txt liberando tudo e apontando o sitemap absoluto.
 4. sitemap.xml só com a home (é a única rota pública).
-5. Open Graph completo (pt_BR) e Twitter `summary_large_image`, com og:image em `/og-image.jpg`.
+5. Open Graph completo (pt_BR) e Twitter `summary_large_image`, com `/og-image.jpg` (1200x630) já criado na raiz.
 6. Configuração Vercel sem URL de preview ou domínio fictício no build de produção.
 7. Nenhum `noindex` na home, nenhum X-Robots-Tag em vercel.json, canonical = og:url = sitemap.
 8. `lang="pt-BR"`.
