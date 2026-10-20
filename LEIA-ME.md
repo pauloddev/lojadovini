@@ -27,7 +27,6 @@ No deploy da Vercel, `scripts/build.mjs` troca tudo automaticamente pela variáv
 | Item | Arquivo e linha | O que fazer |
 |---|---|---|
 | URL do site | `site.config.mjs`, linha 10 | Opcional na Vercel (automático). Com domínio próprio, troque pelo domínio (sem barra no final). |
-| WhatsApp | `site.config.mjs`, linha 16 | **Confirmar.** Usei (31) 99324-3003, lido em várias sacolas. Uma foto mais recente mostra (83) 98663-3320. Se o oficial for outro, troque aqui; o build atualiza todos os botões. |
 | Imagem de compartilhamento | `index.html`, linhas 20 a 28 | Criar `og-image.jpg` em **1200x630 px** na raiz do projeto. |
 
 ## Resultado do checklist

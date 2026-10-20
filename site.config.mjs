@@ -9,8 +9,6 @@
 // variável VERCEL_PROJECT_PRODUCTION_URL quando ela existe.
 export const SITE_URL = "https://TROCAR-PELO-LINK-DO-VERCEL.vercel.app";
 
-// WHATSAPP: número usado em todos os botões (só dígitos, com 55 + DDD).
-// Lido nas sacolas das fotos enviadas: (31) 99324-3003.
-// TODO: CONFIRMAR: uma das fotos mostra outra sacola com (83) 98663-3320.
-// Se o número oficial for outro, troque aqui e rode o build.
+// WHATSAPP: número oficial usado em todos os botões (só dígitos, com 55 + DDD).
+// Confirmado pelo cliente: (31) 99324-3003.
 export const WHATSAPP = "5531993243003";
